@@ -12,7 +12,7 @@ ul {
 
 .main-menu li {
     display: inline;
-    margin-right: 100px;
+    margin-right: 450px;
     text-align: center;
 }
 
@@ -115,4 +115,8 @@ td {
 
 .text-upper {
     text-transform: uppercase;
+}
+
+.otstup-sleva {
+    margin-left: 40px;
 }
