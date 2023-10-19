@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b9b9b9;
+    text-align: center;
+    color: #1f1f1f;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+
+.button {
+    background-color: #4400ff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+h3 {
+    text-align: center;
+}
+img {
+    border: 2px solid #55c5e9; 
+    padding: 15px; 
+    background: #666; 
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+#artists {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.artist {
+    margin-right: 250px;
+    margin-top: 80px;
+}
+body {
+    background: linear-gradient(to bottom, #4abdff, #1f1f1f);
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
