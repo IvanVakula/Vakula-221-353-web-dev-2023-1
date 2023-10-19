@@ -16,7 +16,7 @@
             </div>
             <div class="form-group">
                 <label for="email">E-Mail</label>
-                <input type="email" id="email" name="email" required placeholder="Введите почту" value="example@post.com" readonly>
+                <input type="email" id="email" name="email" required placeholder="Введите почту" value="example@post.com">
             </div>
             <fieldset class="form-group">
                 <legend>Как вы о нас узнали</legend>
@@ -48,25 +48,27 @@
                 <input type="checkbox" name="agree" id="agree" value="agree" required checked>
                 <label for="agree">Согласен с правилами обработки персональной информации</label>
             </div>
+            <input type="hidden" name="form_type" value="feedback">
             <button type="submit">Отправить</button>
         </form>
     </div>
     <div class="login-container">
         <h2 class="login-title">Логин</h2>
-        <form class="login-form">
+        <form class="login-form" method="post" action="https://httpbin.org/post" enctype="multipart/form-data">
             <div class="form-group-for-login">
                 <label for="login">Логин</label>
                 <input type="text" id="login" name="login" required>
             </div>
             <div class="form-group-for-login">
                 <label for="password">Пароль</label>
-                <input id="password" type="password" required>
+                <input id="password" type="password" name="password" required>
             </div>
-            <button type="submit" class="loginbutton" >Войти</button>
+            <button type="submit" class="loginbutton">Войти</button>
             <div class="form-group-for-login">
                 <input type="checkbox" name="rememberme" id="rememberme" checked>
                 <label for="rememberme">Запомнить меня</label>
             </div>
+            <input type="hidden" name="form_type" value="login">
         </form>
     </div>
 </body>
